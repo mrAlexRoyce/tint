@@ -1,0 +1,2 @@
+# tint
+GitHub Pages
