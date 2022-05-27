@@ -1,0 +1,41 @@
+ErrorDocument 403 /page25307310.html
+ErrorDocument 404 /page25307310.html
+
+DirectoryIndex page23860338.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^about$ page23861106.html [NC]
+RewriteRule ^about/$ page23861106.html [NC]
+
+RewriteRule ^factori$ page23862430.html [NC]
+RewriteRule ^factori/$ page23862430.html [NC]
+
+RewriteRule ^login$ page25323128.html [NC]
+RewriteRule ^login/$ page25323128.html [NC]
+
+RewriteRule ^in-progress$ page25307310.html [NC]
+RewriteRule ^in-progress/$ page25307310.html [NC]
+
+RewriteRule ^signup$ page25329116.html [NC]
+RewriteRule ^signup/$ page25329116.html [NC]
+
+RewriteRule ^onboarding$ page26715856.html [NC]
+RewriteRule ^onboarding/$ page26715856.html [NC]
+
+RewriteRule ^cookie-policy$ page26718062.html [NC]
+RewriteRule ^cookie-policy/$ page26718062.html [NC]
+
+RewriteRule ^privacy-policy$ page26718817.html [NC]
+RewriteRule ^privacy-policy/$ page26718817.html [NC]
+
+RewriteRule ^tint$ page27972619.html [NC]
+RewriteRule ^tint/$ page27972619.html [NC]
+
+RewriteRule ^members/ ma_start.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3365-3366-4631-b566-396463653037/favicon.ico [R=302,L]
+
